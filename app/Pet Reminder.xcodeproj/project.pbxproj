@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E70998ADFC11F4B1C7E640B /* Pods_Pet_Reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A88C56D967F2F0A30AD3AB3 /* Pods_Pet_Reminder.framework */; };
+		DC0A3B2029C0CACC00CCBA5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A3B1F29C0CACC00CCBA5B /* AppDelegate.swift */; };
+		DC0A3B2229C0CACC00CCBA5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A3B2129C0CACC00CCBA5B /* SceneDelegate.swift */; };
+		DC0A3B2429C0CACC00CCBA5B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A3B2329C0CACC00CCBA5B /* LoginViewController.swift */; };
+		DC0A3B2729C0CACC00CCBA5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0A3B2529C0CACC00CCBA5B /* Main.storyboard */; };
+		DC0A3B2929C0CACD00CCBA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0A3B2829C0CACD00CCBA5B /* Assets.xcassets */; };
+		DC0A3B2C29C0CACD00CCBA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0A3B2A29C0CACD00CCBA5B /* LaunchScreen.storyboard */; };
+		DC324DEE2A265B17003721F5 /* HaberIcerikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC324DED2A265B17003721F5 /* HaberIcerikViewController.swift */; };
+		DC353A382C9F1E550082F424 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC353A372C9F1E540082F424 /* GoogleService-Info.plist */; };
+		DC412BF62CA1E65600EE0565 /* SohbetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC412BF52CA1E65600EE0565 /* SohbetTableViewCell.swift */; };
+		DC55F6802A17B357004DEB4E /* E-mailDegisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55F67F2A17B357004DEB4E /* E-mailDegisViewController.swift */; };
+		DC55F6822A17B367004DEB4E /* ParolaDegisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55F6812A17B367004DEB4E /* ParolaDegisViewController.swift */; };
+		DC6D887E2A1E7B2D0084EF4A /* HaberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6D887D2A1E7B2D0084EF4A /* HaberCell.swift */; };
+		DC6D88852A1E7F050084EF4A /* Haberler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6D88842A1E7F050084EF4A /* Haberler.swift */; };
+		DC6D888A2A1E86650084EF4A /* HaberlerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6D88892A1E86650084EF4A /* HaberlerViewModel.swift */; };
+		DC8B7EC029EC4D0900922976 /* HatirlatmaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B7EBF29EC4D0900922976 /* HatirlatmaViewController.swift */; };
+		DC8BD7E629C946C100BCA3C7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BD7E529C946C100BCA3C7 /* SignUpViewController.swift */; };
+		DCA27DA129E2870200A27566 /* SohbetArayuzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA27DA029E2870200A27566 /* SohbetArayuzViewController.swift */; };
+		DCAF343929D3F4FF008910F5 /* AyarlarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF343829D3F4FF008910F5 /* AyarlarViewController.swift */; };
+		DCAF343B29D3F513008910F5 /* AnasayfaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF343A29D3F513008910F5 /* AnasayfaViewController.swift */; };
+		DCAF343D29D3F51E008910F5 /* HayvanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF343C29D3F51D008910F5 /* HayvanViewController.swift */; };
+		DCAF343F29D3F527008910F5 /* SohbetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF343E29D3F527008910F5 /* SohbetViewController.swift */; };
+		DCF923582C9F2D10008C871D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF923572C9F2D10008C871D /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B1046EB8D7CD5A6F7FB0012 /* Pods-Pet Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Reminder.debug.xcconfig"; path = "Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder.debug.xcconfig"; sourceTree = "<group>"; };
+		63D50F65426A975ACB612A04 /* Pods_Pet_ReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_ReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8464AA3E5AA3672CA5995FBB /* Pods-Pet Reminder-Pet ReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Reminder-Pet ReminderUITests.release.xcconfig"; path = "Target Support Files/Pods-Pet Reminder-Pet ReminderUITests/Pods-Pet Reminder-Pet ReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8716DF22EB7263F7A5838E4D /* Pods-Pet ReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet ReminderTests.release.xcconfig"; path = "Target Support Files/Pods-Pet ReminderTests/Pods-Pet ReminderTests.release.xcconfig"; sourceTree = "<group>"; };
+		929692C58846EADAE3E2B3DA /* Pods_Pet_Reminder_Pet_ReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_Reminder_Pet_ReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A88C56D967F2F0A30AD3AB3 /* Pods_Pet_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E6CFE463B2210BD3D0568E /* Pods-Pet ReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet ReminderTests.debug.xcconfig"; path = "Target Support Files/Pods-Pet ReminderTests/Pods-Pet ReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB04CE3469A1C7E31405661A /* Pods-Pet Reminder-Pet ReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Reminder-Pet ReminderUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pet Reminder-Pet ReminderUITests/Pods-Pet Reminder-Pet ReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC0A3B1C29C0CACC00CCBA5B /* Pet Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0A3B1F29C0CACC00CCBA5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC0A3B2129C0CACC00CCBA5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC0A3B2329C0CACC00CCBA5B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DC0A3B2629C0CACC00CCBA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC0A3B2829C0CACD00CCBA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC0A3B2B29C0CACD00CCBA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC0A3B2D29C0CACD00CCBA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC324DED2A265B17003721F5 /* HaberIcerikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaberIcerikViewController.swift; sourceTree = "<group>"; };
+		DC353A372C9F1E540082F424 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DC412BF52CA1E65600EE0565 /* SohbetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SohbetTableViewCell.swift; sourceTree = "<group>"; };
+		DC55F67F2A17B357004DEB4E /* E-mailDegisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "E-mailDegisViewController.swift"; sourceTree = "<group>"; };
+		DC55F6812A17B367004DEB4E /* ParolaDegisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParolaDegisViewController.swift; sourceTree = "<group>"; };
+		DC6D887D2A1E7B2D0084EF4A /* HaberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaberCell.swift; sourceTree = "<group>"; };
+		DC6D88842A1E7F050084EF4A /* Haberler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haberler.swift; sourceTree = "<group>"; };
+		DC6D88892A1E86650084EF4A /* HaberlerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaberlerViewModel.swift; sourceTree = "<group>"; };
+		DC8B7EBF29EC4D0900922976 /* HatirlatmaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatirlatmaViewController.swift; sourceTree = "<group>"; };
+		DC8BD7E529C946C100BCA3C7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DCA27DA029E2870200A27566 /* SohbetArayuzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SohbetArayuzViewController.swift; sourceTree = "<group>"; };
+		DCAF343829D3F4FF008910F5 /* AyarlarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyarlarViewController.swift; sourceTree = "<group>"; };
+		DCAF343A29D3F513008910F5 /* AnasayfaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewController.swift; sourceTree = "<group>"; };
+		DCAF343C29D3F51D008910F5 /* HayvanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayvanViewController.swift; sourceTree = "<group>"; };
+		DCAF343E29D3F527008910F5 /* SohbetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SohbetViewController.swift; sourceTree = "<group>"; };
+		DCF923572C9F2D10008C871D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F532CC3F22ADC8D7D8762B5A /* Pods-Pet Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Reminder.release.xcconfig"; path = "Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC0A3B1929C0CACC00CCBA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E70998ADFC11F4B1C7E640B /* Pods_Pet_Reminder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C9496F3DAB0EEB625486A48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A88C56D967F2F0A30AD3AB3 /* Pods_Pet_Reminder.framework */,
+				929692C58846EADAE3E2B3DA /* Pods_Pet_Reminder_Pet_ReminderUITests.framework */,
+				63D50F65426A975ACB612A04 /* Pods_Pet_ReminderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8666B413AB8C13AA767DD1D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B1046EB8D7CD5A6F7FB0012 /* Pods-Pet Reminder.debug.xcconfig */,
+				F532CC3F22ADC8D7D8762B5A /* Pods-Pet Reminder.release.xcconfig */,
+				CB04CE3469A1C7E31405661A /* Pods-Pet Reminder-Pet ReminderUITests.debug.xcconfig */,
+				8464AA3E5AA3672CA5995FBB /* Pods-Pet Reminder-Pet ReminderUITests.release.xcconfig */,
+				C8E6CFE463B2210BD3D0568E /* Pods-Pet ReminderTests.debug.xcconfig */,
+				8716DF22EB7263F7A5838E4D /* Pods-Pet ReminderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC0A3B1329C0CACC00CCBA5B = {
+			isa = PBXGroup;
+			children = (
+				DC0A3B1E29C0CACC00CCBA5B /* Pet Reminder */,
+				DC0A3B1D29C0CACC00CCBA5B /* Products */,
+				8666B413AB8C13AA767DD1D8 /* Pods */,
+				0C9496F3DAB0EEB625486A48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC0A3B1D29C0CACC00CCBA5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC0A3B1C29C0CACC00CCBA5B /* Pet Reminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC0A3B1E29C0CACC00CCBA5B /* Pet Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				DCF923562C9F2CFD008C871D /* Constant */,
+				DC0A3B2A29C0CACD00CCBA5B /* LaunchScreen.storyboard */,
+				DC0A3B2829C0CACD00CCBA5B /* Assets.xcassets */,
+				DC0A3B2529C0CACC00CCBA5B /* Main.storyboard */,
+				DC0A3B2D29C0CACD00CCBA5B /* Info.plist */,
+				DC353A372C9F1E540082F424 /* GoogleService-Info.plist */,
+				DC6D494729CA754700D5A2CC /* View */,
+				DC6D494629CA751800D5A2CC /* Giris */,
+				DC6D887F2A1E7E610084EF4A /* Pati */,
+				DC5E2B6929CFF29F0074F3F7 /* Ana Sayfa */,
+			);
+			path = "Pet Reminder";
+			sourceTree = "<group>";
+		};
+		DC55F67C2A17B304004DEB4E /* Parola E-mail Değişme */ = {
+			isa = PBXGroup;
+			children = (
+				DC55F67F2A17B357004DEB4E /* E-mailDegisViewController.swift */,
+				DC55F6812A17B367004DEB4E /* ParolaDegisViewController.swift */,
+			);
+			name = "Parola E-mail Değişme";
+			path = "Parola E-mail Değişme";
+			sourceTree = "<group>";
+		};
+		DC5E2B6929CFF29F0074F3F7 /* Ana Sayfa */ = {
+			isa = PBXGroup;
+			children = (
+				DC6D88802A1E7EBD0084EF4A /* Model */,
+				DC6D88862A1E7F3C0084EF4A /* View */,
+				DC6D88822A1E7ECA0084EF4A /* ViewModel */,
+				DCA27DA229E2871700A27566 /* Sohbet */,
+				DC8B7EC329EC4D7200922976 /* Ayarlar */,
+			);
+			path = "Ana Sayfa";
+			sourceTree = "<group>";
+		};
+		DC6D494629CA751800D5A2CC /* Giris */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BD7E529C946C100BCA3C7 /* SignUpViewController.swift */,
+				DC0A3B2329C0CACC00CCBA5B /* LoginViewController.swift */,
+			);
+			path = Giris;
+			sourceTree = "<group>";
+		};
+		DC6D494729CA754700D5A2CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC0A3B1F29C0CACC00CCBA5B /* AppDelegate.swift */,
+				DC0A3B2129C0CACC00CCBA5B /* SceneDelegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC6D887F2A1E7E610084EF4A /* Pati */ = {
+			isa = PBXGroup;
+			children = (
+				DC8B7EBF29EC4D0900922976 /* HatirlatmaViewController.swift */,
+				DCAF343C29D3F51D008910F5 /* HayvanViewController.swift */,
+			);
+			path = Pati;
+			sourceTree = "<group>";
+		};
+		DC6D88802A1E7EBD0084EF4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC6D88842A1E7F050084EF4A /* Haberler.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC6D88822A1E7ECA0084EF4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DC6D88892A1E86650084EF4A /* HaberlerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DC6D88862A1E7F3C0084EF4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF343A29D3F513008910F5 /* AnasayfaViewController.swift */,
+				DC6D887D2A1E7B2D0084EF4A /* HaberCell.swift */,
+				DC324DED2A265B17003721F5 /* HaberIcerikViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC8B7EC329EC4D7200922976 /* Ayarlar */ = {
+			isa = PBXGroup;
+			children = (
+				DC55F67C2A17B304004DEB4E /* Parola E-mail Değişme */,
+				DCAF343829D3F4FF008910F5 /* AyarlarViewController.swift */,
+			);
+			path = Ayarlar;
+			sourceTree = "<group>";
+		};
+		DCA27DA229E2871700A27566 /* Sohbet */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF343E29D3F527008910F5 /* SohbetViewController.swift */,
+				DCA27DA029E2870200A27566 /* SohbetArayuzViewController.swift */,
+				DC412BF52CA1E65600EE0565 /* SohbetTableViewCell.swift */,
+			);
+			path = Sohbet;
+			sourceTree = "<group>";
+		};
+		DCF923562C9F2CFD008C871D /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				DCF923572C9F2D10008C871D /* Constants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC0A3B1B29C0CACC00CCBA5B /* Pet Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0A3B4629C0CACD00CCBA5B /* Build configuration list for PBXNativeTarget "Pet Reminder" */;
+			buildPhases = (
+				85A6AE37A74DB2F0A91DE659 /* [CP] Check Pods Manifest.lock */,
+				DC0A3B1829C0CACC00CCBA5B /* Sources */,
+				DC0A3B1929C0CACC00CCBA5B /* Frameworks */,
+				DC0A3B1A29C0CACC00CCBA5B /* Resources */,
+				0AAA2079D29CE149FD2E7175 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pet Reminder";
+			productName = "Pet Reminder";
+			productReference = DC0A3B1C29C0CACC00CCBA5B /* Pet Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC0A3B1429C0CACC00CCBA5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DC0A3B1B29C0CACC00CCBA5B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = DC0A3B1729C0CACC00CCBA5B /* Build configuration list for PBXProject "Pet Reminder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC0A3B1329C0CACC00CCBA5B;
+			packageReferences = (
+			);
+			productRefGroup = DC0A3B1D29C0CACC00CCBA5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC0A3B1B29C0CACC00CCBA5B /* Pet Reminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC0A3B1A29C0CACC00CCBA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0A3B2C29C0CACD00CCBA5B /* LaunchScreen.storyboard in Resources */,
+				DC353A382C9F1E550082F424 /* GoogleService-Info.plist in Resources */,
+				DC0A3B2929C0CACD00CCBA5B /* Assets.xcassets in Resources */,
+				DC0A3B2729C0CACC00CCBA5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AAA2079D29CE149FD2E7175 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85A6AE37A74DB2F0A91DE659 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pet Reminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC0A3B1829C0CACC00CCBA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0A3B2429C0CACC00CCBA5B /* LoginViewController.swift in Sources */,
+				DCA27DA129E2870200A27566 /* SohbetArayuzViewController.swift in Sources */,
+				DC6D88852A1E7F050084EF4A /* Haberler.swift in Sources */,
+				DC6D888A2A1E86650084EF4A /* HaberlerViewModel.swift in Sources */,
+				DCAF343F29D3F527008910F5 /* SohbetViewController.swift in Sources */,
+				DCAF343929D3F4FF008910F5 /* AyarlarViewController.swift in Sources */,
+				DC6D887E2A1E7B2D0084EF4A /* HaberCell.swift in Sources */,
+				DC55F6822A17B367004DEB4E /* ParolaDegisViewController.swift in Sources */,
+				DC0A3B2029C0CACC00CCBA5B /* AppDelegate.swift in Sources */,
+				DC324DEE2A265B17003721F5 /* HaberIcerikViewController.swift in Sources */,
+				DC8B7EC029EC4D0900922976 /* HatirlatmaViewController.swift in Sources */,
+				DCAF343D29D3F51E008910F5 /* HayvanViewController.swift in Sources */,
+				DC412BF62CA1E65600EE0565 /* SohbetTableViewCell.swift in Sources */,
+				DCF923582C9F2D10008C871D /* Constants.swift in Sources */,
+				DC8BD7E629C946C100BCA3C7 /* SignUpViewController.swift in Sources */,
+				DCAF343B29D3F513008910F5 /* AnasayfaViewController.swift in Sources */,
+				DC0A3B2229C0CACC00CCBA5B /* SceneDelegate.swift in Sources */,
+				DC55F6802A17B357004DEB4E /* E-mailDegisViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC0A3B2529C0CACC00CCBA5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0A3B2629C0CACC00CCBA5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC0A3B2A29C0CACD00CCBA5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0A3B2B29C0CACD00CCBA5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC0A3B4429C0CACD00CCBA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC0A3B4529C0CACD00CCBA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC0A3B4729C0CACD00CCBA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1046EB8D7CD5A6F7FB0012 /* Pods-Pet Reminder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3755NX4L2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pet Reminder/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmeterkut.Pet-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DC0A3B4829C0CACD00CCBA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F532CC3F22ADC8D7D8762B5A /* Pods-Pet Reminder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3755NX4L2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pet Reminder/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmeterkut.Pet-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC0A3B1729C0CACC00CCBA5B /* Build configuration list for PBXProject "Pet Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0A3B4429C0CACD00CCBA5B /* Debug */,
+				DC0A3B4529C0CACD00CCBA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0A3B4629C0CACD00CCBA5B /* Build configuration list for PBXNativeTarget "Pet Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0A3B4729C0CACD00CCBA5B /* Debug */,
+				DC0A3B4829C0CACD00CCBA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC0A3B1429C0CACC00CCBA5B /* Project object */;
+}
