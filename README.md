@@ -2,12 +2,12 @@
 
 # 🐾 Pet Reminder App
 
-Benim geliştirdiğim **Pet Reminder**, evcil hayvan sahiplerine özel bir mobil uygulama. Bu uygulama sayesinde kullanıcılar, hayvan dostlarıyla ilgili hatırlatmalar oluşturabiliyor, veterinerlerle kolayca iletişim kurabiliyor ve gündemdeki haberleri takip edebiliyor. Ayrıca, kişisel ayarları kullanarak uygulamayı kendi tercihlerine göre özelleştirme imkanı sunuyorum. Uygulama, iOS platformu için geliştirilmiş olup Swift ve UIKit framework'ü kullanılarak hazırlandı.
+Geliştirmiş olduğum **Pet Reminder**, evcil hayvan sahiplerine özel bir mobil uygulamadır. Bu uygulama sayesinde kullanıcılar, hayvan dostlarıyla ilgili hatırlatmalar oluşturabiliyor, veterinerlerle kolayca iletişim kurabiliyor ve gündemdeki haberleri takip edebiliyor. Ayrıca, kişisel ayarları kullanarak kendi tercihlerine göre özelleştirme imkanı sunuyor. Uygulama, iOS platformu için geliştirilmiş olup Swift ve UIKit framework'ü kullanılarak hazırlandı.
 
 ## 🚀 Özellikler
 
 ### 🗓️ Hatırlatıcı Oluşturma
-Evcil hayvanınızın beslenme saatleri, aşıları ya da veteriner ziyaretleri gibi önemli görevleri takip edebilmeniz için kullanıcı dostu bir hatırlatıcı sistemi sunuyorum.
+Evcil hayvanınızın beslenme saatleri, aşıları ya da veteriner ziyaretleri gibi önemli görevleri takip edebilmeniz için kullanıcı dostu bir hatırlatıcı sistemi sunuyor.
 
 ### 📰 Güncel Haberler
 Uygulamam, internetten hayvanlarla ilgili en son haberleri otomatik olarak çekerek ana sayfada kullanıcıya gösteriyor. Böylece, evcil hayvanınızın günlük bakımını yaparken en son gelişmelerden haberdar olabiliyorsunuz.
@@ -19,7 +19,7 @@ Veterinerlerle birebir mesajlaşma özelliği sayesinde, evcil hayvanınızla il
 Kullanıcılar, uygulama içerisindeki kişisel ayarları kolayca değiştirip, uygulamayı kendi ihtiyaçlarına göre özelleştirebiliyorlar.
 
 ### 📱 Kullanıcı Deneyimi
-Uygulamam, sade ve şık tasarımıyla dikkat çekiyor. Kullanıcı arayüzü, kolay anlaşılır bir navigasyon sunarak her türlü kullanıcı için rahat bir deneyim sağlıyor.
+Uygulama, sade ve şık tasarımıyla dikkat çekiyor. Kullanıcı arayüzü, kolay anlaşılır bir navigasyon sunarak her türlü kullanıcı için rahat bir deneyim sağlıyor.
 
 ## 🛠️ Kullanılan Teknolojiler
 
@@ -36,27 +36,30 @@ Pet Reminder uygulamasını geliştirmek için kullandığım başlıca teknoloj
 
 ## 🔧 Kurulum
 
-Projeyi kendi sistemimde çalıştırmak için şu adımları izledim:
+Projeyi kendi sisteminizde çalıştırmak için şu adımları izleyiniz:
 
-1. Bu repoyu klonladım:
+1. Bu repoyu klonlamak için:
    ```bash
    git clone https://github.com/erkutahmet/Pet-Reminder.git
    ```
 
 2. Gerekli bağımlılıkları yüklemek için:
    ```bash
-   cd Pet-Reminder
+   cd Pet-Reminder/app
    pod install
    ```
 
-3. Xcode ile projeyi açtım:
+3. Xcode ile projeyi açın:
    ```bash
    open PetReminder.xcworkspace
    ```
 
-4. Firebase yapılandırma dosyasını ekledim (`GoogleService-Info.plist`).
+4. Local olarak json-server çalıştırmak için:
+   ```bash
+   cd Pet-Reminder/app/News
+   npm run start:server
 
-5. Simülatör veya fiziksel cihazda çalıştırdım.
+5. Simülatör veya fiziksel cihazlarda çalıştırabilirsiniz.
 
 ## 🌟 Gelecekteki Planlar
 
