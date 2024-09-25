@@ -2,28 +2,28 @@
 
 # 🐾 Pet Reminder App
 
-Geliştirmiş olduğum **Pet Reminder**, evcil hayvan sahiplerine özel bir mobil uygulamadır. Bu uygulama sayesinde kullanıcılar, hayvan dostlarıyla ilgili hatırlatmalar oluşturabiliyor, veterinerlerle kolayca iletişim kurabiliyor ve gündemdeki haberleri takip edebiliyor. Ayrıca, kişisel ayarları kullanarak kendi tercihlerine göre özelleştirme imkanı sunuyor. Uygulama, iOS platformu için geliştirilmiş olup Swift ve UIKit framework'ü kullanılarak hazırlandı.
+The **Pet Reminder** app I developed is a mobile application specifically designed for pet owners. With this application, users can create reminders related to their pets, easily communicate with veterinarians, and keep up with current news. Additionally, it offers customization options based on personal settings. The application has been developed for the iOS platform using Swift and the UIKit framework.
 
-## 🚀 Özellikler
+## 🚀 Features
 
-### 🗓️ Hatırlatıcı Oluşturma
-Evcil hayvanınızın beslenme saatleri, aşıları ya da veteriner ziyaretleri gibi önemli görevleri takip edebilmeniz için kullanıcı dostu bir hatırlatıcı sistemi sunuyor.
+### 🗓️ Reminder Creation
+It provides a user-friendly reminder system to help you keep track of important tasks such as feeding times, vaccinations, or veterinary visits for your pets.
 
-### 📰 Güncel Haberler
-Uygulamam, internetten hayvanlarla ilgili en son haberleri otomatik olarak çekerek ana sayfada kullanıcıya gösteriyor. Böylece, evcil hayvanınızın günlük bakımını yaparken en son gelişmelerden haberdar olabiliyorsunuz.
+### 📰 Current News
+My application automatically fetches the latest pet-related news from the internet and displays it on the homepage. This way, you can stay informed about the latest developments while taking care of your pet's daily needs.
 
-### 🐕‍🦺 Veterinerlerle Mesajlaşma
-Veterinerlerle birebir mesajlaşma özelliği sayesinde, evcil hayvanınızla ilgili sorularınızı ve acil durumları hızlı bir şekilde veterinerinize iletebiliyorsunuz. Bu özellik, veteriner randevuları arasında geçen sürede güvenli ve hızlı iletişim sağlıyor.
+### 🐕‍🦺 Messaging with Veterinarians
+With the one-on-one messaging feature with veterinarians, you can quickly communicate your questions and urgent situations regarding your pet to your veterinarian. This feature enables safe and quick communication during the time between veterinary appointments.
 
-### ⚙️ Kişisel Ayarlar
-Kullanıcılar, uygulama içerisindeki kişisel ayarları kolayca değiştirip, uygulamayı kendi ihtiyaçlarına göre özelleştirebiliyorlar.
+### ⚙️ Personal Settings
+Users can easily modify the personal settings within the application to customize it according to their needs.
 
-### 📱 Kullanıcı Deneyimi
-Uygulama, sade ve şık tasarımıyla dikkat çekiyor. Kullanıcı arayüzü, kolay anlaşılır bir navigasyon sunarak her türlü kullanıcı için rahat bir deneyim sağlıyor.
+### 📱 User Experience
+The application stands out with its simple and elegant design. The user interface provides an easily understandable navigation experience for all types of users.
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 
-Pet Reminder uygulamasını geliştirmek için kullandığım başlıca teknolojiler ve araçlar:
+Here are the main technologies and tools I used to develop the Pet Reminder application:
 
 - **Swift** 🍎
 - **UIKit** 📱
@@ -34,42 +34,43 @@ Pet Reminder uygulamasını geliştirmek için kullandığım başlıca teknoloj
 - **JSON-Server (Fake Backend)** 🗄️
 - **Cocoapods** 📦
 
-## 🔧 Kurulum
+## 🔧 Installation
 
-Projeyi kendi sisteminizde çalıştırmak için şu adımları izleyiniz:
+To run the project on your system, please follow these steps:
 
-1. Bu repoyu klonlamak için:
+1. To clone this repository:
    ```bash
    git clone https://github.com/erkutahmet/Pet-Reminder.git
    ```
 
-2. Gerekli bağımlılıkları yüklemek için:
+2. To install the necessary dependencies:
    ```bash
    cd Pet-Reminder/app
    pod install
    ```
 
-3. Xcode ile projeyi açın:
+3. Open the project with Xcode:
    ```bash
    open PetReminder.xcworkspace
    ```
 
-4. Local olarak json-server çalıştırmak için:
+4. To run json-server locally:
    ```bash
    cd Pet-Reminder/app/News
    npm run start:server
+   ```
 
-5. Simülatör veya fiziksel cihazlarda çalıştırabilirsiniz.
+5. You can run it on simulators or physical devices.
 
-## 🌟 Gelecekteki Planlar
+## 🌟 Future Plans
 
-- **Hatırlatıcı sistemini geliştirmek**: Hatırlatma seçeneklerini daha da özelleştirilebilir hale getirmek istiyorum.
-- **Tasarım iyileştirmeleri**: Kullanıcı deneyimini geliştirmek için daha modern ve kullanıcı dostu bir arayüz tasarlamayı planlıyorum.
-- **Push bildirimleri eklemek**: Hatırlatıcılar için anlık bildirimlerle kullanıcıları bilgilendirmeyi hedefliyorum.
-- **Yeni özellikler**: Evcil hayvan sahiplerinin hayatını kolaylaştıracak yeni fonksiyonlar eklemeyi düşünüyorum.
+- **Enhancing the reminder system**: I want to make the reminder options even more customizable.
+- **Design improvements**: I plan to design a more modern and user-friendly interface to enhance the user experience.
+- **Adding push notifications**: I aim to notify users with real-time alerts for reminders.
+- **New features**: I am considering adding new functions to make life easier for pet owners.
 
-## 🤝 Katkıda Bulunma
+## 🤝 Contributing
 
-Katkılarınızı bekliyorum! Eğer bu projeye katkıda bulunmak isterseniz, lütfen bir "pull request" açın ya da bir "issue" oluşturun. Geri bildiriminiz benim için çok değerli.
+I welcome your contributions! If you would like to contribute to this project, please open a "pull request" or create an "issue." Your feedback is very valuable to me.
 
----
+--- 
