@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E70998ADFC11F4B1C7E640B /* Pods_Pet_Reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A88C56D967F2F0A30AD3AB3 /* Pods_Pet_Reminder.framework */; };
 		DC0A3B2029C0CACC00CCBA5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A3B1F29C0CACC00CCBA5B /* AppDelegate.swift */; };
 		DC0A3B2229C0CACC00CCBA5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A3B2129C0CACC00CCBA5B /* SceneDelegate.swift */; };
 		DC0A3B2429C0CACC00CCBA5B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A3B2329C0CACC00CCBA5B /* LoginViewController.swift */; };
@@ -29,18 +28,16 @@
 		DCAF343B29D3F513008910F5 /* AnasayfaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF343A29D3F513008910F5 /* AnasayfaViewController.swift */; };
 		DCAF343D29D3F51E008910F5 /* HayvanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF343C29D3F51D008910F5 /* HayvanViewController.swift */; };
 		DCAF343F29D3F527008910F5 /* SohbetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF343E29D3F527008910F5 /* SohbetViewController.swift */; };
+		DCC7C9A52CA8375200527889 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DCC7C9A42CA8375200527889 /* Alamofire */; };
+		DCC7C9A82CA8376900527889 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = DCC7C9A72CA8376900527889 /* MessageKit */; };
+		DCC7C9AB2CA837D600527889 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DCC7C9AA2CA837D600527889 /* FirebaseAuth */; };
+		DCC7C9AD2CA837D600527889 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DCC7C9AC2CA837D600527889 /* FirebaseFirestore */; };
+		DCC7C9B02CA8399100527889 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DCC7C9AF2CA8399100527889 /* FirebaseAuth */; };
+		DCC7C9B22CA8399100527889 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DCC7C9B12CA8399100527889 /* FirebaseFirestore */; };
 		DCF923582C9F2D10008C871D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF923572C9F2D10008C871D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3B1046EB8D7CD5A6F7FB0012 /* Pods-Pet Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Reminder.debug.xcconfig"; path = "Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder.debug.xcconfig"; sourceTree = "<group>"; };
-		63D50F65426A975ACB612A04 /* Pods_Pet_ReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_ReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8464AA3E5AA3672CA5995FBB /* Pods-Pet Reminder-Pet ReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Reminder-Pet ReminderUITests.release.xcconfig"; path = "Target Support Files/Pods-Pet Reminder-Pet ReminderUITests/Pods-Pet Reminder-Pet ReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
-		8716DF22EB7263F7A5838E4D /* Pods-Pet ReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet ReminderTests.release.xcconfig"; path = "Target Support Files/Pods-Pet ReminderTests/Pods-Pet ReminderTests.release.xcconfig"; sourceTree = "<group>"; };
-		929692C58846EADAE3E2B3DA /* Pods_Pet_Reminder_Pet_ReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_Reminder_Pet_ReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A88C56D967F2F0A30AD3AB3 /* Pods_Pet_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8E6CFE463B2210BD3D0568E /* Pods-Pet ReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet ReminderTests.debug.xcconfig"; path = "Target Support Files/Pods-Pet ReminderTests/Pods-Pet ReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CB04CE3469A1C7E31405661A /* Pods-Pet Reminder-Pet ReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Reminder-Pet ReminderUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pet Reminder-Pet ReminderUITests/Pods-Pet Reminder-Pet ReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC0A3B1C29C0CACC00CCBA5B /* Pet Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0A3B1F29C0CACC00CCBA5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC0A3B2129C0CACC00CCBA5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +62,6 @@
 		DCAF343C29D3F51D008910F5 /* HayvanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayvanViewController.swift; sourceTree = "<group>"; };
 		DCAF343E29D3F527008910F5 /* SohbetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SohbetViewController.swift; sourceTree = "<group>"; };
 		DCF923572C9F2D10008C871D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		F532CC3F22ADC8D7D8762B5A /* Pods-Pet Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Reminder.release.xcconfig"; path = "Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,43 +69,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E70998ADFC11F4B1C7E640B /* Pods_Pet_Reminder.framework in Frameworks */,
+				DCC7C9A52CA8375200527889 /* Alamofire in Frameworks */,
+				DCC7C9B02CA8399100527889 /* FirebaseAuth in Frameworks */,
+				DCC7C9AD2CA837D600527889 /* FirebaseFirestore in Frameworks */,
+				DCC7C9AB2CA837D600527889 /* FirebaseAuth in Frameworks */,
+				DCC7C9A82CA8376900527889 /* MessageKit in Frameworks */,
+				DCC7C9B22CA8399100527889 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C9496F3DAB0EEB625486A48 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9A88C56D967F2F0A30AD3AB3 /* Pods_Pet_Reminder.framework */,
-				929692C58846EADAE3E2B3DA /* Pods_Pet_Reminder_Pet_ReminderUITests.framework */,
-				63D50F65426A975ACB612A04 /* Pods_Pet_ReminderTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8666B413AB8C13AA767DD1D8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B1046EB8D7CD5A6F7FB0012 /* Pods-Pet Reminder.debug.xcconfig */,
-				F532CC3F22ADC8D7D8762B5A /* Pods-Pet Reminder.release.xcconfig */,
-				CB04CE3469A1C7E31405661A /* Pods-Pet Reminder-Pet ReminderUITests.debug.xcconfig */,
-				8464AA3E5AA3672CA5995FBB /* Pods-Pet Reminder-Pet ReminderUITests.release.xcconfig */,
-				C8E6CFE463B2210BD3D0568E /* Pods-Pet ReminderTests.debug.xcconfig */,
-				8716DF22EB7263F7A5838E4D /* Pods-Pet ReminderTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		DC0A3B1329C0CACC00CCBA5B = {
 			isa = PBXGroup;
 			children = (
 				DC0A3B1E29C0CACC00CCBA5B /* Pet Reminder */,
 				DC0A3B1D29C0CACC00CCBA5B /* Products */,
-				8666B413AB8C13AA767DD1D8 /* Pods */,
-				0C9496F3DAB0EEB625486A48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -247,11 +223,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC0A3B4629C0CACD00CCBA5B /* Build configuration list for PBXNativeTarget "Pet Reminder" */;
 			buildPhases = (
-				85A6AE37A74DB2F0A91DE659 /* [CP] Check Pods Manifest.lock */,
 				DC0A3B1829C0CACC00CCBA5B /* Sources */,
 				DC0A3B1929C0CACC00CCBA5B /* Frameworks */,
 				DC0A3B1A29C0CACC00CCBA5B /* Resources */,
-				0AAA2079D29CE149FD2E7175 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,7 +244,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					DC0A3B1B29C0CACC00CCBA5B = {
 						CreatedOnToolsVersion = 14.2;
@@ -287,6 +261,9 @@
 			);
 			mainGroup = DC0A3B1329C0CACC00CCBA5B;
 			packageReferences = (
+				DCC7C9A32CA8375200527889 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DCC7C9A62CA8376900527889 /* XCRemoteSwiftPackageReference "MessageKit" */,
+				DCC7C9AE2CA8399100527889 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = DC0A3B1D29C0CACC00CCBA5B /* Products */;
 			projectDirPath = "";
@@ -310,48 +287,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0AAA2079D29CE149FD2E7175 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		85A6AE37A74DB2F0A91DE659 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Pet Reminder-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC0A3B1829C0CACC00CCBA5B /* Sources */ = {
@@ -437,6 +372,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -497,6 +433,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -517,7 +454,6 @@
 		};
 		DC0A3B4729C0CACD00CCBA5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B1046EB8D7CD5A6F7FB0012 /* Pods-Pet Reminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -548,7 +484,6 @@
 		};
 		DC0A3B4829C0CACD00CCBA5B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F532CC3F22ADC8D7D8762B5A /* Pods-Pet Reminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -599,6 +534,74 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DCC7C9A32CA8375200527889 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		DCC7C9A62CA8376900527889 /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+		DCC7C9A92CA837D600527889 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.0;
+			};
+		};
+		DCC7C9AE2CA8399100527889 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DCC7C9A42CA8375200527889 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCC7C9A32CA8375200527889 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		DCC7C9A72CA8376900527889 /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCC7C9A62CA8376900527889 /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+		DCC7C9AA2CA837D600527889 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCC7C9A92CA837D600527889 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DCC7C9AC2CA837D600527889 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCC7C9A92CA837D600527889 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DCC7C9AF2CA8399100527889 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCC7C9AE2CA8399100527889 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DCC7C9B12CA8399100527889 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCC7C9AE2CA8399100527889 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC0A3B1429C0CACC00CCBA5B /* Project object */;
 }

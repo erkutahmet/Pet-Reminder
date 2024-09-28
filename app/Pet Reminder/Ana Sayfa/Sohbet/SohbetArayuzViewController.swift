@@ -37,38 +37,20 @@ class SohbetArayuzViewController: MessagesViewController, MessagesDataSource, Me
             layout.setMessageOutgoingAvatarSize(.zero)
             layout.setMessageIncomingAvatarSize(.zero)
         }
-        mesajlar.append(Message(sender: mevcutKullanici,
-                                messageId: "1",
-                                sentDate: Date().addingTimeInterval(-86400),
-                                kind: .text("Selamlar.")))
-        mesajlar.append(Message(sender: digerKullanici,
-                                messageId: "2",
-                                sentDate: Date().addingTimeInterval(-70000),
-                                kind: .text("Selamlar, nasıl gidiyor?")))
-        mesajlar.append(Message(sender: mevcutKullanici,
-                                messageId: "3",
-                                sentDate: Date().addingTimeInterval(-66400),
-                                kind: .text("İyidir, sizden?")))
-        mesajlar.append(Message(sender: digerKullanici,
-                                messageId: "4",
-                                sentDate: Date().addingTimeInterval(-56400),
-                                kind: .text("İyi ne olsun. Pamuk nasıl iyi mi?")))
-        mesajlar.append(Message(sender: mevcutKullanici,
-                                messageId: "5",
-                                sentDate: Date().addingTimeInterval(-46400),
-                                kind: .text("Her şey yolunda iyi hissediyor, teşekkürler.")))
-        mesajlar.append(Message(sender: digerKullanici,
-                                messageId: "6",
-                                sentDate: Date().addingTimeInterval(-26400),
-                                kind: .text("Biz teşekkür ederiz.")))
+        setUpMessages()
         //mesajların kaynak verisi
         messagesCollectionView.messagesDataSource = self
         messagesCollectionView.messagesLayoutDelegate = self
         messagesCollectionView.messagesDisplayDelegate = self
+        messagesCollectionView.reloadData()
     }
 
-    func currentSender() -> MessageKit.SenderType {
+    var currentSender: SenderType {
         return mevcutKullanici
+    }
+    
+    var otherSender: SenderType {
+        return digerKullanici
     }
 
     //yollanılan mesajlar için mesaj kutusu(item)
@@ -79,5 +61,32 @@ class SohbetArayuzViewController: MessagesViewController, MessagesDataSource, Me
     //mesaj sayısı
     func numberOfSections(in messagesCollectionView: MessageKit.MessagesCollectionView) -> Int {
         return mesajlar.count
+    }
+    
+    func setUpMessages(){
+        mesajlar.append(Message(sender: currentSender,
+                                messageId: "1",
+                                sentDate: Date().addingTimeInterval(-86400),
+                                kind: .text("Selamlar.")))
+        mesajlar.append(Message(sender: otherSender,
+                                messageId: "2",
+                                sentDate: Date().addingTimeInterval(-70000),
+                                kind: .text("Selamlar, nasıl gidiyor?")))
+        mesajlar.append(Message(sender: currentSender,
+                                messageId: "3",
+                                sentDate: Date().addingTimeInterval(-66400),
+                                kind: .text("İyidir, sizden?")))
+        mesajlar.append(Message(sender: otherSender,
+                                messageId: "4",
+                                sentDate: Date().addingTimeInterval(-56400),
+                                kind: .text("İyi ne olsun. Pamuk nasıl iyi mi?")))
+        mesajlar.append(Message(sender: currentSender,
+                                messageId: "5",
+                                sentDate: Date().addingTimeInterval(-46400),
+                                kind: .text("Her şey yolunda iyi hissediyor, teşekkürler.")))
+        mesajlar.append(Message(sender: otherSender,
+                                messageId: "6",
+                                sentDate: Date().addingTimeInterval(-26400),
+                                kind: .text("Biz teşekkür ederiz.")))
     }
 }
