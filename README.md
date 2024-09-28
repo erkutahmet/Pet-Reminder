@@ -43,20 +43,14 @@ To run the project on your system, please follow these steps:
    git clone https://github.com/erkutahmet/Pet-Reminder.git
    ```
 
-2. To install the necessary dependencies:
+2. Open the project with Xcode:
    ```bash
-   cd Pet-Reminder/app
-   pod install
-   ```
-
-3. Open the project with Xcode:
-   ```bash
-   open PetReminder.xcworkspace
+   open Pet\ Reminder.xcodeproj
    ```
 
 4. To run json-server locally:
    ```bash
-   cd Pet-Reminder/app/News
+   cd ../app/News
    npm run start:server
    ```
 
